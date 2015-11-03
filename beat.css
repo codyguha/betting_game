@@ -1,0 +1,50 @@
+#playarea {
+  text-align: center;
+}
+
+#messagebox {
+  font-variant: small-caps;
+  font-size: 4em;
+}
+
+#playerloot {
+  font-variant: small-caps;
+  font-size: 2em;
+}
+
+button  { 
+   margin-top: 20px;
+  background: #000000;
+  border-radius: 20px;
+  border: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 60px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+
+  background: #82ab8d;
+  text-decoration: none;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 4em;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  text-align: center;
+}
+
+input[type="number"]:focus,
+input[type="number"].focus {
+  clear: right;
+   border: none;
+  border-bottom: solid 2px #969696;
+}
+
+#playerloot {
+
+}
